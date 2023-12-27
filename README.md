@@ -15,7 +15,7 @@
 ## 🛠️ Install
 1. Clone this repository and navigate to DrugAssist folder
 ```bash
-git clone https://github.com/blazerygy/DrugAssist.git
+git clone https://github.com/blazerye/DrugAssist.git
 cd DrugAssist
 ```
 
