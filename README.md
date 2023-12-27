@@ -2,7 +2,7 @@
 <h3 align="center"> A Large Language Model for Molecule Optimization </h3>
 
 <p align="center">
-  📃 <a href="https://arxiv.org/abs/2306.08018" target="_blank">Paper</a><br>
+  📃 <a href="https://arxiv.org" target="_blank">Paper</a><br>
 </p>
 
 ## 📌 Contents
