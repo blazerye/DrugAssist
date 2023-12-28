@@ -5,6 +5,10 @@
   📃 <a href="https://arxiv.org" target="_blank">Paper</a><br>
 </p>
 
+<div align="center">
+  <img src="fig/logo.png" width="200">
+</div>
+
 ## 📌 Contents
 - [Install](#install)
 - [Dataset](#dataset)
