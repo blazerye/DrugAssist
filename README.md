@@ -2,7 +2,7 @@
 <h3 align="center"> A Large Language Model for Molecule Optimization </h3>
 
 <p align="center">
-  📃 <a href="https://arxiv.org" target="_blank">Paper</a><br>
+  📃 <a href="https://arxiv.org/abs/2401.10334" target="_blank">Paper</a><br>
 </p>
 
 <div align="center">
@@ -65,9 +65,9 @@ python gradio_service.py \
 If you find DrugAssist useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @misc{ye2024drugassist,
-      title={DrugAssist: A Large Language Model for Molecule Optimiaztion}, 
-      author={Ye, Geyan and Cai, Xibao and Lai, Houtim and Wang, Xing and Wang, Longyue and Liu, Wei and Zeng, Xiangxiang},
-      publisher={arXiv:2410.03744},
+      title={DrugAssist: A Large Language Model for Molecule Optimization}, 
+      author={Ye, Geyan and Cai, Xibao and Lai, Houtim and Wang, Xing and Huang, Junhong and Wang, Longyue and Liu, Wei and Zeng, Xiangxiang},
+      publisher={arXiv:2401.10334},
       year={2024},
 }
 ```
