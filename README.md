@@ -60,7 +60,7 @@ python gradio_service.py \
     --port $PORT
 ```
 <div align="center">
-  <img src="fig/demo.png" width="400">
+  <img src="fig/demo.png" width="600">
 </div>
 
 ## 📝 About
