@@ -59,6 +59,9 @@ python gradio_service.py \
     --ip $IP \
     --port $PORT
 ```
+<div align="center">
+  <img src="fig/demo.png" width="400">
+</div>
 
 ## 📝 About
 ### Citation
