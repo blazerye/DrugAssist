@@ -67,11 +67,11 @@ python gradio_service.py \
 ### Citation
 If you find DrugAssist useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@misc{ye2024drugassist,
-      title={DrugAssist: A Large Language Model for Molecule Optimization}, 
-      author={Ye, Geyan and Cai, Xibao and Lai, Houtim and Wang, Xing and Huang, Junhong and Wang, Longyue and Liu, Wei and Zeng, Xiangxiang},
-      publisher={arXiv:2401.10334},
-      year={2024},
+@article{ye2023drugassist,
+  title={DrugAssist: A Large Language Model for Molecule Optimization},
+  author={Ye, Geyan and Cai, Xibao and Lai, Houtim and Wang, Xing and Huang, Junhong and Wang, Longyue and Liu, Wei and Zeng, Xiangxiang},
+  journal={arXiv preprint arXiv:2401.10334},
+  year={2023}
 }
 ```
 ### Acknowledgements
