@@ -1,3 +1,4 @@
+# Below code is based on https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/blob/main/scripts/training/run_clm_sft_with_peft.py
 import logging
 import math
 import os
@@ -355,12 +356,10 @@ def main():
 
     model.print_trainable_parameters()
     logger.info(f"model.modules_to_save: {model.modules_to_save}")
-    '''
     old_state_dict = model.state_dict
     model.state_dict = (
         lambda self, *_, **__: get_peft_model_state_dict(self, old_state_dict())
     ).__get__(model, type(model))
-    '''
 
     # Initialize our Trainer
     trainer = Trainer(

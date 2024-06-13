@@ -2,7 +2,7 @@
 <h3 align="center"> A Large Language Model for Molecule Optimization </h3>
 
 <p align="center">
-  📃 <a href="https://arxiv.org/abs/2401.10334" target="_blank">Paper</a> • 📁 <a href="https://huggingface.co/datasets/blazerye/MolOpt-Instructions" target="_blank">Dataset</a><br>
+  📃 <a href="https://arxiv.org/abs/2401.10334" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/datasets/blazerye/MolOpt-Instructions" target="_blank">Dataset</a> • 🤗 <a href="https://huggingface.co/blazerye/DrugAssist-7B" target="_blank">Model</a><br>
 </p>
 
 <div align="center">
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 ## 🤗 Dataset
-We release the sample dataset on Hugging Face at [blazerye/MolOpt-Instructions](https://huggingface.co/datasets/blazerye/MolOpt-Instructions), and you can use it for training, the full dataset is on going.
+We release the dataset on Hugging Face at [blazerye/MolOpt-Instructions](https://huggingface.co/datasets/blazerye/MolOpt-Instructions), and you can use it for training.
 
 ## 🚆 Train
 You can use LoRA to finetune `Llama2-7B-Chat` model on the `MolOpt-Instructions` dataset, the running command is as follows:
@@ -50,6 +50,7 @@ python merge_model.py \
     --output_type huggingface \
     --verbose
 ```
+Alternatively, you can download our DrugAssist model weights from [blazerye/DrugAssist-7B](https://huggingface.co/blazerye/DrugAssist-7B).
 
 #### Step 2: Launch web demo
 You can use gradio to launch web demo by running the following command:
