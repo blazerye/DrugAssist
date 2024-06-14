@@ -64,6 +64,12 @@ python gradio_service.py \
   <img src="fig/demo.png" width="500">
 </div>
 
+In order to deploy DrugAssist model on devices with lower hardware configurations (such as personal laptops without GPUs), we used [llama.cpp](https://github.com/ggerganov/llama.cpp) to perform 4-bit quantization on the [DrugAssist-7B](https://huggingface.co/blazerye/DrugAssist-7B) model, resulting in the [DrugAssist-7B-4bit](https://huggingface.co/blazerye/DrugAssist-7B/blob/main/DrugAssist-7B-4bit.gguf) model. You can use the text-generation-webui tool to load and use this quantized model. For specific methods, please refer to the [quantized_model_deploy.md](./quantized_model_deploy.md).
+
+<div align="center">
+  <img src="fig/webui.png" width="700">
+</div>
+
 ## 📝 About
 ### Citation
 If you find DrugAssist useful for your research and applications, please cite using this BibTeX:
