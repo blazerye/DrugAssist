@@ -2,7 +2,7 @@
 
 ## Precautions:
 Our evaluation process adopts the workflow of [ChatDrug](https://github.com/chao1224/ChatDrug) for evaluating small molecules. Therefore, the evaluation code is based on the script provided by this work. Please note that, unlike this work, our success rate calculation method is `the number of successful optimizations` / `the total number of molecules`, while this work is `the number of successful optimizations` / `the number of valid molecules`.  
-In addition, in our optimization tasks involving "esol", "bbbp", and "herg" properties, the property values are given by the idrug model. Currently, the API call of the idrug model is not open to the public, but the [web query](https://drug.ai.tencent.com/cn) is free for everyone. You can query the aforementioned property values of molecules through this method. If you want to evaluate the above tasks in batches, please implement your own property prediction model at the code entry we reserved.
+In addition, in our optimization tasks involving "esol", "bbbp", and "herg" properties, the property values are given by the idrug model. Currently, the API call of the idrug model is not open to the public, but the [web query](https://drug.ai.tencent.com/cn) is available for everyone. You can query the aforementioned property values of molecules through this method. If you want to evaluate the above tasks in batches, please implement your own property prediction model at the code entry we reserved.
 
 ## Script Parameter Explanation:
 `--task`: Task name, currently supported values are: `qed+`, `acceptor+`, `donor+`, `esol+`, `bbbp+`, `herg-`, `esol+acceptor+`, `qed+bbbp+`.  

@@ -175,14 +175,14 @@ if __name__ == '__main__':
     parser.add_argument('--num_round', required=False, type=int, default=2, help='number of conversation round')
     parser.add_argument('--client_add', required=True, type=str, help='DrugAssist client address set by gradio service')
     parser.add_argument('--database', required=False, type=str, default='mol_DB.csv',help='molecule database')
-    parser.add_argument('--test_mol', required=False, type=str, default='testset.csv', help='testset ')
+    parser.add_argument('--test_mol', required=False, type=str, default='testset.csv', help='testset')
     args = parser.parse_args()
     args = vars(args)
 
 
     if 'esol' in args['task'] or 'bbbp' in args['task'] or 'herg' in args['task']:
         choice = input("The property value involved in this task will be given by a specific prediction model, make sure you have implemented it yourself!\
-                       If you have any questions, please refer to xxx. Enter y to confirm, enter n to exit\n")
+                       If you have any questions, please refer to https://github.com/blazerye/DrugAssist/blob/main/evaluate/evaluate.md. Enter y to confirm, enter n to exit\n")
         if choice == 'y':
             main_assit(args)
     else:
