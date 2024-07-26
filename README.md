@@ -71,6 +71,9 @@ In order to deploy DrugAssist model on devices with lower hardware configuration
   <img src="fig/webui.png" width="700">
 </div>
 
+## ⚖️ Evaluate
+After deploying the [DrugAssist-7B](https://huggingface.co/blazerye/DrugAssist-7B) model, you can refer to the [evaluate.md](./evaluate/evaluate.md) document and run the evaluate script to verify the molecular optimization results.
+
 ## 📝 About
 ### Citation
 If you find DrugAssist useful for your research and applications, please cite using this BibTeX:
