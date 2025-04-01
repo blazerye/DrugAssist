@@ -78,11 +78,15 @@ After deploying the [DrugAssist-7B](https://huggingface.co/blazerye/DrugAssist-7
 ### Citation
 If you find DrugAssist useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{ye2023drugassist,
-  title={DrugAssist: A Large Language Model for Molecule Optimization},
+@article{ye2025drugassist,
+  title={Drugassist: A large language model for molecule optimization},
   author={Ye, Geyan and Cai, Xibao and Lai, Houtim and Wang, Xing and Huang, Junhong and Wang, Longyue and Liu, Wei and Zeng, Xiangxiang},
-  journal={arXiv preprint arXiv:2401.10334},
-  year={2023}
+  journal={Briefings in Bioinformatics},
+  volume={26},
+  number={1},
+  pages={bbae693},
+  year={2025},
+  publisher={Oxford University Press}
 }
 ```
 ### Acknowledgements
