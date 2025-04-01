@@ -79,7 +79,7 @@ After deploying the [DrugAssist-7B](https://huggingface.co/blazerye/DrugAssist-7
 If you find DrugAssist useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @article{ye2025drugassist,
-  title={Drugassist: A large language model for molecule optimization},
+  title={DrugAssist: A large language model for molecule optimization},
   author={Ye, Geyan and Cai, Xibao and Lai, Houtim and Wang, Xing and Huang, Junhong and Wang, Longyue and Liu, Wei and Zeng, Xiangxiang},
   journal={Briefings in Bioinformatics},
   volume={26},
