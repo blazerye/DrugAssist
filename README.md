@@ -2,7 +2,7 @@
 <h3 align="center"> A Large Language Model for Molecule Optimization </h3>
 
 <p align="center">
-  📃 <a href="https://arxiv.org/abs/2401.10334" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/datasets/blazerye/MolOpt-Instructions" target="_blank">Dataset</a> • 🤗 <a href="https://huggingface.co/blazerye/DrugAssist-7B" target="_blank">Model</a><br>
+  📃 <a href="https://academic.oup.com/bib/article/26/1/bbae693/7942355" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/datasets/blazerye/MolOpt-Instructions" target="_blank">Dataset</a> • 🤗 <a href="https://huggingface.co/blazerye/DrugAssist-7B" target="_blank">Model</a><br>
 </p>
 
 <div align="center">
